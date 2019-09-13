@@ -9,8 +9,6 @@
 ## ⚡️ Getting Started
 First, you have to install docker, docker-compose ([How to Install Docker?](https://docs.docker.com/install/))
 
-And type in a shell, terminal etc..
-
 ```
 cp .env.example .env
 docker-compose up
