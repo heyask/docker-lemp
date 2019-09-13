@@ -1,6 +1,6 @@
 # Docker LEMP(Linux, Nginx, MySQL, PHP) Stack
 
-### ⭐️ Stack
+## ⭐️ Stack
 - Nginx:latest
 - MySQL:8
 - PHP:7.2-fpm
