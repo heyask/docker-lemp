@@ -1,1 +1,6 @@
 .DS_Store
+nginx/log/
+
+public/*
+!public/index.html
+!public/index.php
