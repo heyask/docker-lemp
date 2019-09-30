@@ -3,5 +3,3 @@ nginx/log/
 .env
 
 public/*
-!public/index.html
-!public/index.php
