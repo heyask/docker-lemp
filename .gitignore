@@ -2,4 +2,5 @@
 nginx/log/
 .env
 
-public/*
+public/
+public/

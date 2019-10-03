@@ -3,7 +3,7 @@
 
 ## Stack
 - Nginx:latest
-- MySQL:8
+- MySQL:5.6
 - PHP:7.2-fpm
 - PHPMyAdmin:latest
 
@@ -11,6 +11,7 @@
 First, you have to install docker, docker-compose ([How to Install Docker?](https://docs.docker.com/install/))
 
 ```
+mkdir public
 cp .env.example .env
 docker-compose up
 ```
