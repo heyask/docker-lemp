@@ -1,3 +1,5 @@
-FROM mysql:8
+FROM mysql:5.6
 
-RUN apt-get update && apt-get upgrade
+RUN apt-get update -y
+RUN apt-get upgrade -y
+RUN apt-get autoremove -y
