@@ -22,8 +22,6 @@ services:
       - ./php/php-fpm.d/www.conf:/usr/local/etc/php-fpm.d/www.conf
       - ./public:/var/www/html
     restart: always
-    links:
-      - mysql:mysql
 
   nginx:
     build: ./nginx
